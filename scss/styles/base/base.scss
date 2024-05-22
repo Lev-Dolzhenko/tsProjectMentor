@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(58, 58, 58);
+  color: rgb(185, 185, 185);
+}
+
+.main {
+  font-family: "Roboto";
+}
+
+.none {
+  display: none;
+}
+
+.container {
+  max-width: 1180px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.title1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.redBorder {
+  border: 1px solid red !important;
+
+  &::placeholder {
+    color: red;
+  }
+}

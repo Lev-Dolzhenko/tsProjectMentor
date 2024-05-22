@@ -1,0 +1,24 @@
+.main {
+  padding: 50px 0;
+}
+.main__wrapper {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.main__title {
+  text-align: center;
+
+  width: 100%;
+
+  h1 {
+    margin: 0;
+  }
+}
+.main__subtitle {
+  text-align: center;
+
+  width: 100%;
+}

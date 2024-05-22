@@ -1,0 +1,17 @@
+//base
+
+@import "./styles/base/reset.scss";
+@import "./styles/base/base.scss";
+
+//components
+
+@import "./styles/components/mainTitle.scss";
+@import "./styles/components/mainForm.scss";
+@import "./styles/components/mainContacts.scss";
+@import "./styles/components/mainContactsCertain.scss";
+@import "./styles/components/mainContactsSearch.scss";
+@import "./styles/components/mainButtonDelete.scss";
+@import "./styles/components/mainButtonDeleteCurr.scss";
+@import "./styles/components/mainContactsSearchList.scss";
+@import "./styles/components/mainButtonEditCurr.scss";
+@import "./styles/components/popupEdit.scss";

@@ -1,0 +1,33 @@
+.main__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 50px;
+}
+.form__input {
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: 1px solid;
+
+  &:focus {
+    border: 1px solid rgb(214, 159, 8);
+  }
+
+  width: 200px;
+}
+.form__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  text-transform: uppercase;
+  border-radius: 5px;
+
+  padding: 10px 0;
+
+  height: 100%;
+
+  width: 150px;
+}

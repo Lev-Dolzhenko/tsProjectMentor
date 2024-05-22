@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(58, 58, 58);
+  color: rgb(185, 185, 185);
+}
+
+.main {
+  font-family: "Roboto";
+}
+
+.container {
+  max-width: 1180px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.title1 {
+  font-size: 48px;
+  font-weight: 700;
+}

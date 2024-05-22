@@ -1,0 +1,33 @@
+.main__contacts {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.main__contacts--left,
+.main__contacts--right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.contacts__element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid rgb(214, 159, 8);
+  color: rgb(185, 185, 185);
+
+  padding: 10px 5px;
+
+  width: 200px;
+  cursor: pointer;
+
+  text-transform: uppercase;
+}

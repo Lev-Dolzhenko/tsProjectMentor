@@ -1,0 +1,52 @@
+.main__contacts--certain {
+  position: absolute;
+  left: 0;
+  top: 50%;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  max-height: 300px;
+  width: 230px;
+  overflow: hidden;
+
+  overflow-y: scroll;
+
+  border: 1px solid rgba(102, 102, 102, 0.5);
+  padding: 20px;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &::after {
+    content: "scroll";
+    position: absolute;
+    left: 50%;
+    top: 0;
+
+    text-transform: uppercase;
+
+    font-weight: 500;
+
+    transform: translateX(-50%);
+  }
+}
+
+.main__contact--certain {
+  position: relative;
+  border: 1px solid orange;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+
+  padding: 5px;
+}
+
+.main__contact--certain-name {
+}
+.main__contact--certain-vacancy {
+}
+.main__contact--certain-phone {
+}

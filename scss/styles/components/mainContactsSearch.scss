@@ -1,0 +1,44 @@
+.main__contacts--search {
+  position: absolute;
+  right: 0;
+  top: 50%;
+
+  height: 300px;
+  // overflow: hidden;
+
+  // overflow-y: scroll;
+  overflow: hidden;
+
+  border: 1px solid rgba(102, 102, 102, 0.5);
+  padding: 20px;
+
+  &::after {
+    content: "Search Contact";
+    position: absolute;
+    left: 50%;
+    top: 0;
+
+    width: 100%;
+
+    text-transform: uppercase;
+
+    font-weight: 500;
+
+    transform: translateX(-50%);
+    text-align: center;
+  }
+}
+
+.main__contacts--search-input {
+}
+
+.main__contacts--search-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  button {
+    padding: 5px 10px;
+  }
+}

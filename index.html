@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact List</title>
+    <script src="/script.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <div class="main__wrapper">
+          <div class="main__title">
+            <h1 class="title1">Contact List on TS</h1>
+          </div>
+          <div class="main__subtitle">
+            <a href="#!" class="main__subtitle--link">GitHub Repository link</a>
+          </div>
+          <form class="main__form">
+            <input
+              id="inputName"
+              class="form__input"
+              type="text"
+              placeholder="Name"
+            />
+            <input
+              id="inputVacancy"
+              class="form__input"
+              type="text"
+              placeholder="Vacancy"
+            />
+            <input
+              id="inputPhone"
+              class="form__input"
+              type="tel"
+              placeholder="Phone +X XXX XXX XX XX"
+            />
+            <button id="buttonAdd" class="form__button">Add</button>
+            <!-- <button class="form__button">Clear List</button>
+            <button class="form__button">Search</button> -->
+          </form>
+          <div class="main__contacts">
+            <div class="main__contacts--left">
+              <div data-letter="A" class="contacts__element">
+                <span class="contacts__element--letter">a</span
+                ><span
+                  data-letter-counter="A"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="B" class="contacts__element">
+                <span class="contacts__element--letter">b</span
+                ><span
+                  data-letter-counter="B"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="C" class="contacts__element">
+                <span class="contacts__element--letter">c</span
+                ><span
+                  data-letter-counter="C"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="D" class="contacts__element">
+                <span class="contacts__element--letter">d</span
+                ><span
+                  data-letter-counter="D"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="E" class="contacts__element">
+                <span class="contacts__element--letter">e</span
+                ><span
+                  data-letter-counter="E"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="F" class="contacts__element">
+                <span class="contacts__element--letter">f</span
+                ><span
+                  data-letter-counter="F"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="G" class="contacts__element">
+                <span class="contacts__element--letter">g</span
+                ><span
+                  data-letter-counter="G"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="H" class="contacts__element">
+                <span class="contacts__element--letter">h</span
+                ><span
+                  data-letter-counter="H"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="I" class="contacts__element">
+                <span class="contacts__element--letter">i</span
+                ><span
+                  data-letter-counter="I"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="J" class="contacts__element">
+                <span class="contacts__element--letter">j</span
+                ><span
+                  data-letter-counter="J"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="K" class="contacts__element">
+                <span class="contacts__element--letter">k</span
+                ><span
+                  data-letter-counter="K"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="L" class="contacts__element">
+                <span class="contacts__element--letter">l</span
+                ><span
+                  data-letter-counter="L"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="M" class="contacts__element">
+                <span class="contacts__element--letter">m</span
+                ><span
+                  data-letter-counter="M"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+            </div>
+            <div class="main__contacts--right">
+              <div data-letter="N" class="contacts__element">
+                <span class="contacts__element--letter">n</span
+                ><span
+                  data-letter-counter="N"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="O" class="contacts__element">
+                <span class="contacts__element--letter">o</span
+                ><span
+                  data-letter-counter="O"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="P" class="contacts__element">
+                <span class="contacts__element--letter">p</span
+                ><span
+                  data-letter-counter="P"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="Q" class="contacts__element">
+                <span class="contacts__element--letter">q</span
+                ><span
+                  data-letter-counter="Q"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="R" class="contacts__element">
+                <span class="contacts__element--letter">r</span
+                ><span
+                  data-letter-counter="R"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="S" class="contacts__element">
+                <span class="contacts__element--letter">s</span
+                ><span
+                  data-letter-counter="S"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="T" class="contacts__element">
+                <span class="contacts__element--letter">t</span
+                ><span
+                  data-letter-counter="T"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="U" class="contacts__element">
+                <span class="contacts__element--letter">u</span
+                ><span
+                  data-letter-counter="U"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="V" class="contacts__element">
+                <span class="contacts__element--letter">v</span
+                ><span
+                  data-letter-counter="V"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="W" class="contacts__element">
+                <span class="contacts__element--letter">w</span
+                ><span
+                  data-letter-counter="W"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="X" class="contacts__element">
+                <span class="contacts__element--letter">x</span
+                ><span
+                  data-letter-counter="X"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="Y" class="contacts__element">
+                <span class="contacts__element--letter">y</span
+                ><span
+                  data-letter-counter="Y"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+              <div data-letter="Z" class="contacts__element">
+                <span class="contacts__element--letter">z</span
+                ><span
+                  data-letter-counter="Z"
+                  class="contacts__element--counter"
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="main__contacts--certain">
+            <!-- <div class="main__contact--certain">
+              <div class="main__contact--certain-name">
+                <span>Name: </span>
+                <strong>Leo</strong>
+              </div>
+              <div class="main__contact--certain-vacancy">
+                <span>Vacancy: </span>
+                <strong>FrontEnd</strong>
+              </div>
+              <div class="main__contact--certain-phone">
+                <span>Phone: </span>
+                <strong>+7 999 999 99 99</strong>
+              </div>
+            </div>
+            <div class="main__contact--certain">
+              <div class="main__contact--certain-name">
+                <span>Name: </span>
+                <strong>Leo</strong>
+              </div>
+              <div class="main__contact--certain-vacancy">
+                <span>Vacancy: </span>
+                <strong>FrontEnd</strong>
+              </div>
+              <div class="main__contact--certain-phone">
+                <span>Phone: </span>
+                <strong>+7 999 999 99 99</strong>
+              </div>
+            </div>
+            <div class="main__contact--certain">
+              <div class="main__contact--certain-name">
+                <span>Name: </span>
+                <strong>Leo</strong>
+              </div>
+              <div class="main__contact--certain-vacancy">
+                <span>Vacancy: </span>
+                <strong>FrontEnd</strong>
+              </div>
+              <div class="main__contact--certain-phone">
+                <span>Phone: </span>
+                <strong>+7 999 999 99 99</strong>
+              </div>
+            </div>
+            <div class="main__contact--certain">
+              <div class="main__contact--certain-name">
+                <span>Name: </span>
+                <strong>Leo</strong>
+              </div>
+              <div class="main__contact--certain-vacancy">
+                <span>Vacancy: </span>
+                <strong>FrontEnd</strong>
+              </div>
+              <div class="main__contact--certain-phone">
+                <span>Phone: </span>
+                <strong>+7 999 999 99 99</strong>
+              </div>
+            </div> -->
+          </div>
+          <div class="main__contacts--search">
+            <div class="main__contacts--search-input">
+              <input id="searchInput" type="text" />
+            </div>
+            <div class="main__contacts--search-list"></div>
+            <div class="main__contacts--search-button">
+              <button>Show All</button>
+            </div>
+          </div>
+          <div class="main__button--delete">
+            <button id="deleteAllContacts">Delete All Contacts</button>
+          </div>
+          <div class="popup popup--edit none">
+            <form class="popup__form--edit">
+              <input
+                placeholder="Change Name"
+                class="form__input form__input--edit"
+                type="text"
+                id="inputNameEdit"
+              />
+              <input
+                placeholder="Change Vacancy"
+                class="form__input form__input--edit"
+                type="text"
+                id="inputVacancyEdit"
+              />
+              <input
+                placeholder="Change Phone"
+                class="form__input form__input--edit"
+                type="tel"
+                id="inputPhoneEdit"
+              />
+            </form>
+            <button class="popup__button--close">
+              <img src="/images/closeIcon.svg" alt="close icon" />
+            </button>
+            <button class="popup__button-change">Change</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

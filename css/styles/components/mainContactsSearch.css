@@ -1,0 +1,13 @@
+.main__contacts--search {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  max-height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+  border: 1px solid rgba(102, 102, 102, 0.5);
+  padding: 20px;
+}
+.main__contacts--search::-webkit-scrollbar {
+  display: none;
+}

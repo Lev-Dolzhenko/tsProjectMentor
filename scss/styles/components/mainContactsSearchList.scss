@@ -1,0 +1,21 @@
+.main__contacts--search-list {
+  position: relative;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  max-height: 170px;
+  //   width: 230px;
+  overflow: hidden;
+
+  overflow-y: scroll;
+
+  border: 1px solid rgba(102, 102, 102, 0.5);
+  //   padding: 20px;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

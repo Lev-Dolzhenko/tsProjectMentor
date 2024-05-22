@@ -1,0 +1,452 @@
+Reset and base styles * {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Links */
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type=submit] {
+  display: inline-block;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+body {
+  background-color: rgb(58, 58, 58);
+  color: rgb(185, 185, 185);
+}
+
+.main {
+  font-family: "Roboto";
+}
+
+.none {
+  display: none;
+}
+
+.container {
+  max-width: 1180px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.title1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.redBorder {
+  border: 1px solid red !important;
+}
+.redBorder::-webkit-input-placeholder {
+  color: red;
+}
+.redBorder::-moz-placeholder {
+  color: red;
+}
+.redBorder:-ms-input-placeholder {
+  color: red;
+}
+.redBorder::-ms-input-placeholder {
+  color: red;
+}
+.redBorder::placeholder {
+  color: red;
+}
+
+.main {
+  padding: 50px 0;
+}
+
+.main__wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 15px;
+}
+
+.main__title {
+  text-align: center;
+  width: 100%;
+}
+.main__title h1 {
+  margin: 0;
+}
+
+.main__subtitle {
+  text-align: center;
+  width: 100%;
+}
+
+.main__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+.form__input {
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: 1px solid;
+  width: 200px;
+}
+.form__input:focus {
+  border: 1px solid rgb(214, 159, 8);
+}
+
+.form__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 10px 0;
+  height: 100%;
+  width: 150px;
+}
+
+.main__contacts {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.main__contacts--left,
+.main__contacts--right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 5px;
+}
+
+.contacts__element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid rgb(214, 159, 8);
+  color: rgb(185, 185, 185);
+  padding: 10px 5px;
+  width: 200px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.main__contacts--certain {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
+  max-height: 300px;
+  width: 230px;
+  overflow: hidden;
+  overflow-y: scroll;
+  border: 1px solid rgba(102, 102, 102, 0.5);
+  padding: 20px;
+}
+.main__contacts--certain::-webkit-scrollbar {
+  display: none;
+}
+.main__contacts--certain::after {
+  content: "scroll";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.main__contact--certain {
+  position: relative;
+  border: 1px solid orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 5px;
+  padding: 5px;
+}
+
+.main__contacts--search {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  height: 300px;
+  overflow: hidden;
+  border: 1px solid rgba(102, 102, 102, 0.5);
+  padding: 20px;
+}
+.main__contacts--search::after {
+  content: "Search Contact";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 500;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+}
+
+.main__contacts--search-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.main__contacts--search-button button {
+  padding: 5px 10px;
+}
+
+.main__button--delete button {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.main__contact--certain-button--delete {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 5px;
+}
+
+.main__contacts--search-list {
+  position: relative;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
+  max-height: 170px;
+  overflow: hidden;
+  overflow-y: scroll;
+  border: 1px solid rgba(102, 102, 102, 0.5);
+}
+.main__contacts--search-list::-webkit-scrollbar {
+  display: none;
+}
+
+.main__contact--certain-button--edit {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 40px;
+}
+
+.popup {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 10;
+  background: rgb(58, 58, 58);
+  border-radius: 10px;
+  border: 1px solid orange;
+  height: 300px;
+  width: 500px;
+  padding: 50px 10px;
+}
+
+.popup__form--edit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
+}
+
+.form__input--edit {
+  width: 100%;
+}
+
+.popup__button--close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.popup__button-change {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 40px;
+}
